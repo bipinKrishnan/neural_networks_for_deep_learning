@@ -1,0 +1,29 @@
+## High level understanding of a neural network
+
+Assume neural network(NN) as a box, when we give an input to a neural network we get an output.
+           				    _____
+				input ---->| NN  |----> output
+           				    -----
+
+There is no meed for feature engg of data before giving it to the NN like in traditional machine learning algorithms.
+NN assigns a weight value for each feature in the input dataset, so if a feature does not effect the output of the NN, the weight value for that feature is given a very low value.
+Thus, a NN takes care of the feature engg for you.
+
+## Supervised learning examples
+
+	Problem					Architecture
+
+   1. Real estate price prediction 	   Standard neural network
+   2. Classification of traffic lights	   Convolutional neural network
+   3. Language translation		   Recurrent neural network
+   4. Position of other cars
+      (self-driving cars)   		   Hybrid of the above architectures
+
+## Why deeplearning is taking off ???
+Three reasons for the boom of deep learning:
+	* Data - a huge amount of data is generated every second 
+	* Computation - we have shifted from CPUs to GPUs and now even to TPUs
+	* Algorithms  - a lot of algorithms have been developed not only for new problems like generation but also to increase the training speed 
+			of NNs
+
+    ** If the data available for a problem is less, traditional ML algorithms may outperform NN models(depends on the feature engg skillset of the researcher).
